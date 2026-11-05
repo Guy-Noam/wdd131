@@ -5,7 +5,8 @@
     --secondary-color: #457b9d;
     --accent-color: #e9c46a;
     --background-color: #f1faee;
-    --text-color: #222;
+    --text-color: #222222;
+    --white-color: #ffffff;
 }
 
 
@@ -88,7 +89,7 @@ main h1 {
 
 
 .card {
-    background-color: white;
+    background-color: var(--white-color);
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
