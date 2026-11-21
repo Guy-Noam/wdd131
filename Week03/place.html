@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover Côte d'Ivoire, its geography, culture, and weather.">
+    <meta name="author" content="Guy Noam BOHUI">
+   <title>Côte d'Ivoire | WDD 131 | Guy Noam BOHUI</title>
+
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>Côte d'Ivoire</h1>
+</header>
+
+
+<main>
+        <div class="hero">
+            <picture>
+                <source
+                    srcset="images/cote-ivoire-mobile.webp"
+                    media="(max-width: 600px)"
+                >
+                <img
+                    src="images/cote-ivoire.webp"
+                    alt="Landscape of Côte d'Ivoire"
+                >
+            </picture>
+        </div>
+
+    <section class="data">
+        <h2>Data</h2>
+        <div class="info">
+            <p><span>Area:</span> 322,462 km²</p>
+            <p><span>Capital:</span> Yamoussoukro</p>
+            <p><span>Largest City:</span> Abidjan</p>
+            <p><span>Language:</span> French</p>
+            <p><span>Currency:</span> West African CFA franc</p>
+            <p><span>Time Zone:</span> UTC+0</p>
+            <p><span>Calling Code:</span> +225</p>
+            <p><span>Internet TLD:</span> .ci</p>
+        </div>
+    </section>
+
+    <section class="weather">
+        <h2>Weather</h2>
+
+        <img
+            class="weather-icon"
+            src="images/weather.svg"
+            alt="Partly cloudy weather"
+        >
+
+        <div class="info">
+            <p><span>Temperature:</span> 29 °C</p>
+            <p><span>Conditions:</span> Partly Cloudy</p>
+            <p><span>Wind:</span> 12 km/h</p>
+            <p><span>Wind Chill:</span> <span id="windChill">N/A</span></p>
+        </div>
+    </section>
+</main>
+
+
+<footer>
+    <p>
+        &copy; <span id="currentyear"></span>
+        Côte d'Ivoire
+    </p>
+    <p id="lastModified"></p>
+</footer>
+
+</body>
+</html>
